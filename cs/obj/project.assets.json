@@ -4835,11 +4835,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\wsl\\web\\dotnet\\cs\\cs\\cs.csproj",
+      "projectUniqueName": "D:\\wsl\\web\\dotnet\\plain_cs\\cs\\cs.csproj",
       "projectName": "cs",
-      "projectPath": "D:\\wsl\\web\\dotnet\\cs\\cs\\cs.csproj",
+      "projectPath": "D:\\wsl\\web\\dotnet\\plain_cs\\cs\\cs.csproj",
       "packagesPath": "C:\\Users\\skpar\\.nuget\\packages\\",
-      "outputPath": "D:\\wsl\\web\\dotnet\\cs\\cs\\obj\\",
+      "outputPath": "D:\\wsl\\web\\dotnet\\plain_cs\\cs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\skpar\\AppData\\Roaming\\NuGet\\NuGet.Config"
