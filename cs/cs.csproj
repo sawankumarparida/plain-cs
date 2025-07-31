@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <PropertyGroup>
+  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+</PropertyGroup>
+
 </Project>
