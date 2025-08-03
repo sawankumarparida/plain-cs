@@ -466,3 +466,5 @@ D:\wsl\web\dotnet\plain_cs\cs\obj\Debug\net9.0\refint\cs.dll
 D:\wsl\web\dotnet\plain_cs\cs\obj\Debug\net9.0\cs.pdb
 D:\wsl\web\dotnet\plain_cs\cs\obj\Debug\net9.0\cs.genruntimeconfig.cache
 D:\wsl\web\dotnet\plain_cs\cs\obj\Debug\net9.0\ref\cs.dll
+D:\wsl\web\dotnet\plain_cs\cs\obj\Debug\net9.0\compressed\7iarahmhva-5ipweew5fc.gz
+D:\wsl\web\dotnet\plain_cs\cs\obj\Debug\net9.0\compressed\i1a6a42snd-5ipweew5fc.gz
