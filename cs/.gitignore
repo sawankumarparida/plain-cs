@@ -1,0 +1,6 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet intermediate files
+*.nuget.dgspec.json
