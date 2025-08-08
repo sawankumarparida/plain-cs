@@ -4,3 +4,5 @@ obj/
 
 # Ignore NuGet intermediate files
 *.nuget.dgspec.json
+*.csproj.nuget.*
+*.assets.cache
