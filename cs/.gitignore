@@ -6,3 +6,6 @@ obj/
 *.nuget.dgspec.json
 *.csproj.nuget.*
 *.assets.cache
+
+# Ignore EF Core migrations
+Migrations/
