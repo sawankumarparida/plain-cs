@@ -9,4 +9,6 @@ obj/
 
 # Ignore EF Core migrations
 Migrations/
+
+bin/
 obj/
