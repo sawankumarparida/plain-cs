@@ -12,6 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 var app = builder.Build();
 
 app.UseStaticFiles();
+app.MapRazorPages();
 app.UseRouting();
 
 app.MapControllerRoute(
