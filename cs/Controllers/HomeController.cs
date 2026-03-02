@@ -12,5 +12,9 @@ namespace cs.Controllers
         {
             return View();
         }
+            public IActionResult Error()
+            {
+                return View();
+            }
     }
 }
