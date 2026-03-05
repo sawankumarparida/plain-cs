@@ -7,6 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews(); // Adds MVC
 builder.Services.AddRazorPages();
 
+// 2️⃣ Register DbContext with connection string
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// 3️⃣ Register ProductService
+builder.Services.AddScoped<IProductService, ProductService>();
+ 
 // 2. CREATE THE 'app' VARIABLE HERE
 var app = builder.Build();
 
@@ -22,11 +28,6 @@ else
     app.UseHsts();
 }
 
-// 2️⃣ Register DbContext with connection string
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-// 3️⃣ Register ProductService
-builder.Services.AddScoped<IProductService, ProductService>();
 
 app.UseStaticFiles();
 app.MapRazorPages();
