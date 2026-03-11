@@ -1,8 +1,20 @@
-@page
-@model cs.Models.Product
-@{
-    ViewData["Title"] = "Home";
-}
+@model IEnumerable<cs.Models.Product>
 
-<h1>Welcome</h1>
-<p>This is the homepage</p>
+<h1>Product List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+        </tr>
+    }
+    </tbody>
+</table>
