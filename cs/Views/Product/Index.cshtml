@@ -1,11 +1,15 @@
 @model IEnumerable<cs.Models.Product>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Product List</title>
-</head>
-<body>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
     <h1>Products</h1>
-    </body>
-</html>
+    <a asp-action="Create" asp-controller="Product" class="btn btn-primary">
+        + Add New Product
+    </a>
+</div>
+
+<table class="table table-striped">
+    </table>
