@@ -5,7 +5,19 @@
     <link rel="stylesheet" href="..." />
 </head>
 <body>
-    <header> ... </header>
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            ...
+            <div class="d-flex align-items-center">
+                <button class="btn btn-link nav-link shadow-none" id="themeToggle" type="button">
+                    <i class="fa-solid fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+            ...
+        </div>
+    </nav>
+</header>
     <main role="main" class="container">
         @RenderBody()
     </main>
