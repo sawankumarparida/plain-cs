@@ -9,7 +9,7 @@
     updateIcon(savedTheme);
 
     // 2. Click Event: Toggle theme
-    themeToggle.addEventListener('click', () => {
+    themeToggle.addEventListener('click', function() {
         const currentTheme = htmlElement.getAttribute('data-bs-theme');
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         
