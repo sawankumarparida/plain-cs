@@ -1,15 +1,18 @@
 @model IEnumerable<cs.Models.Product>
 
-@{
-    ViewData["Title"] = "Home Page";
+<a asp-action="Create" class="btn btn-primary">Add Product</a>
+
+<hr />
+
+@if (!Model.Any())
+{
+    <div class="text-center p-5 border shadow-sm">
+        <h3>Your shop is empty!</h3>
+        <p>Click the button above to add your first item.</p>
+    </div>
 }
-
-<div class="d-flex justify-content-between align-items-center mb-4">
-    <h1>Products</h1>
-    <a asp-action="Create" asp-controller="Product" class="btn btn-primary">
-        + Add New Product
-    </a>
-</div>
-
-<table class="table table-striped">
-    </table>
+else
+{
+    <table class="table mt-3">
+        </table>
+}
